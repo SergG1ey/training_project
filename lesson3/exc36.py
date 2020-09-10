@@ -15,7 +15,7 @@ while 0 < (x or x1 or y or y1) > 9:
 modulX = abs(x - x1)
 modulY = abs(y - y1)
 
-if modulX == 1 and modulY ==2 or modulX == 2 and modulY == 1:
+if modulX == 1 and modulY == 2 or modulX == 2 and modulY == 1:
     print("конь попал")
 else:
     print("конь не попал")
