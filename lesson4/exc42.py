@@ -1,6 +1,6 @@
 count = 0
 summa = 0
-proiz = 0
+proiz = 1
 medium_value = 0
 
 max_number = 0
