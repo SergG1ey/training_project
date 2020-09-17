@@ -4,7 +4,11 @@ import time
 def decor_fun(func):
     def time_stop():
         print("what_time_is_it_now()")
-        time.sleep(3)
+        i = 1
+        while i < 4:
+            time.sleep(1)
+            print(i)
+            i += 1
         func()
     return time_stop()
 
