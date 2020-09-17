@@ -1,4 +1,4 @@
-def is_prime(a, b):
+def is_prime(a, b, figure):
     if figure == 1:
         return (a * b) / 2
     else:
@@ -8,5 +8,5 @@ a = int(input("введите число1: "))
 b = int(input("введите число2: "))
 figure = int(input("1- треугольник \n2- квадрат \n"))
 
-print(is_prime(a, b))
+print(is_prime(a, b, figure))
 
