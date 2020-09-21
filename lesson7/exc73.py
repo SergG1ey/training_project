@@ -11,7 +11,7 @@ params = {"q": s_city, "cnt": cnt, "appid": API_KEY, "units": "metric"}
 res = requests.get(url, params)
 data = res.json()
 
-f = open("my_file.txt", "w")
+f = open("21-09-2020-Odessa-5-days-weather-forecast.txt", "w")
 weathers = data["list"]
 f.write("Date        Temp day    Temp feels like     Temp night\n")
 
